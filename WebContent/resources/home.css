@@ -1,0 +1,215 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding-top: 57px;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+	    background: #e6e6e6;
+	    padding-top: 90px;
+	    overflow-x: hidden;
+    }
+}
+
+/*Navigation Bar Styling*/
+
+.navbar-inverse {
+    background: #0365b9;
+    margin: 0;
+}
+
+.navbar-inverse .navbar-brand , .navbar-inverse .navbar-nav>li>a {
+    color: #dede28f5;
+    font-size: 1.3em;
+}
+
+.badge-notify{
+   background: brown;
+   position: relative;
+   top: -13px;
+   left: -5px;
+}
+
+.navbar-form {
+	margin: 0;
+	margin-top: 5px;
+	border-bottom: 0;
+}
+
+/*Front Page Styling*/
+
+.carousel-indicators li { visibility: hidden; }
+
+.center {
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.item h3 , .item p {
+    color: white;
+}
+
+.item img-wrap img {
+	width: 100%; 
+	height:350px;
+}
+
+.img-wrap {
+        background: black;
+        display: inline-block;
+        line-height: 0;
+}
+
+.img-wrap > img {
+    opacity: 0.6;
+}
+
+.brown {
+    color: brown;
+}
+
+.phn-imgs {
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.lappy-imgs{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.headphone-imgs {
+     margin-left: 70px;
+    margin-top: 20px;
+}
+
+.zoom {
+    transition: transform .2s;
+    text-align: center;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    text-align: center;
+}
+
+.equal {
+    margin: 5px;
+    padding: 5px;
+}
+
+.phones {
+	background: white;
+    margin-top: 10px;
+    padding: 20px;   
+    border-left: 20px solid #e6e6e6;
+    border-right: 20px solid #e6e6e6;
+    border-bottom: 20px solid #e6e6e6;
+    /* border-top: 20px solid blue;
+    border-bottom: 20px solid blue; */   
+}
+
+.laptops {
+    padding: 20px;
+	background: white;   
+    border-right: 20px solid #e6e6e6;
+    border-left: 20px solid #e6e6e6;
+    /* border-bottom: 20px solid blue; */
+    /* border-top: 1px solid black; */
+}
+
+.headphones {
+	border: 20px solid #e6e6e6;
+    padding: 20px;
+   background: white;
+    /* border-bottom: 20px solid blue; */
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.laptops>img {
+    height: ;
+}
+
+.phones>h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: brown;
+}
+
+
+/*Footer Styling*/
+
+footer {
+    background: #1d1414;
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+div ul li {
+    list-style-type: none;
+    color: white;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: white;    
+}
+
+div ul li a:hover {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.lists{
+    padding: 20px;
+}
+
+.line {
+    padding-bottom: 20px;  
+    padding-top: 10px;
+    border-top: 1px solid white;
+    color: white;
+}
+
+.line a {
+    color: white;
+}
+
+.line a:hover {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.line a i{
+    font-size: 25px;
+    margin-right: 5px;
+}
+

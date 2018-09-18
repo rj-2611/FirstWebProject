@@ -1,0 +1,25 @@
+
+.modal-content {
+    color: white;
+    background: #5191c7d9;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.modal-content a {
+	color: white;
+}
+
+.white-text {
+	color: white;
+}
+
+
+
+
+/* .modal {
+    background-image:  linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url("loginBackground.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+} */

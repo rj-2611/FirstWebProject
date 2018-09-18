@@ -1,0 +1,18 @@
+.cart {
+    min-height: 680px;
+}
+
+.empty-cart {
+    min-height: 680px;
+}
+
+.cart-header{
+    text-align: center;
+    color: saddlebrown;
+}
+
+.rightAlign {
+    float: right;
+    margin-right: 27%;
+    margin-bottom: 30px;
+}

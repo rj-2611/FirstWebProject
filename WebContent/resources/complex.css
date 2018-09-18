@@ -1,0 +1,25 @@
+.slick-prev ,.slick-next {
+    width: 40px;
+    height: 70px;
+    color: black;
+    background: black;
+    z-index: 1;
+}
+
+.slick-prev:hover , .slick-next:hover {
+    color: black;
+    background: dimgray;
+}
+
+.slick-prev:focus , .slick-next:focus {
+    color: white;
+    background: dimgray;
+}
+
+.slick-slide {
+    margin-left:27px;
+}
+
+.slick-list {
+    margin-left:-27px;
+}

@@ -1,0 +1,19 @@
+.myorders {
+    min-height: 680px;
+}
+
+.empty-orders {
+    min-height: 680px;
+}
+
+.order-header{
+    text-align: center;
+    color: saddlebrown;
+}
+
+.top-space {
+	margin-top: 13px;
+}
+.bottom-space {
+	margin-bottom: 10px;
+}
